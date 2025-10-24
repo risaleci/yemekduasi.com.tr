@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Yemek Duası - Said Nursi</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fdf6e3;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 30px;
+      gap: 30px;
+    }
+    .text-section {
+      flex: 1;
+    }
+    .text-section h1 {
+      color: #2e8b57;
+    }
+    .dua {
+      background-color: #fff8dc;
+      border: 2px dashed #ffa500;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .downloads {
+      margin-top: 30px;
+    }
+    .downloads a {
+      display: block;
+      margin-bottom: 10px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .pdf-section {
+      flex: 1;
+    }
+    .pdf-section iframe {
+      width: 100%;
+      height: 600px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    /* 📱 Mobil uyumluluk */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px;
+      }
+      .pdf-section iframe {
+        height: 400px;
+      }
+      .text-section h1 {
+        font-size: 24px;
+        text-align: center;
+      }
+      .dua {
+        font-size: 16px;
+      }
+      .downloads a {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="text-section">
+      <h1>🍽️ Yemek Duası</h1>
+      <div class="dua">
+        <h2>🍽️ Yemek Duası</h2>
+
+        <p><strong>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</strong><br>
+        <em>Bismillahirrahmanirrahim</em> – Rahman ve Rahim olan Allah’ın adıyla.</p>
+
+        <p><strong>ٱلْحَمْدُ لِلَّٰهِ ٱلَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ ٱلْمُسْلِمِينَ</strong><br>
+        <em>Elhamdü lillâhi’l-lezî et‘amenâ ve sekânâ ve ce‘alenâ minel muslimîn</em> – Bizi doyuran, içiren ve Müslüman yapan Allah’a hamd olsun.</p>
+
+        <p><strong>كُلُوا وَٱشْرَبُوا وَلَا تُسْرِفُوا إِنَّهُ لَا يُحِبُّ ٱلْمُسْرِفِينَ</strong><br>
+        <em>Kulû ve’şrebû ve lâ tusrifû innehu lâ yuhibbu’l-musrifîn</em> – Yiyin, için ama israf etmeyin. Çünkü Allah israf edenleri sevmez.</p>
+
+        <hr>
+
+        <p><strong>Ey bizi nimetleriyle perverde eden Sultanımız!</strong></p>
+        <p>Bize gösterdiğin nîmunelerin ve gölgelerin asıllarını, menbalarını göster.<br>
+        Ve bizi makarr-ı saltanatına celb et. Bizi bu göllerde mahpus etme!</p>
+
+        <p>Bizi huzuruna al. Bize merhamet et.<br>
+        Bize verdiğin nimetlerin lezzet nîmetlerini orada ver.</p>
+
+        <p>Sani zeval ve tebdî ile tazib etme.<br>
+        Bize zeval ve tebdînin verdiği tazibin başlıboş bırakma.<br>
+        Ve bizi huzurundan tard etme.</p>
+
+        <p><strong>YÂ RAB!</strong> Kusurlarımızı affet, bizi kendine kul kabul et.<br>
+        Rahmetin şefkatiyle bizi terbiye et. Bizi kendine kul kabul et.</p>
+
+        <p><strong>YÂ RAB!</strong> Bizi kendine hizmetkâr et. Nimetlerini bizim için mübarek kıl.<br>
+        Zîhayatların şükrünü eda etmek için bizi istihdam et.<br>
+        Ve bizi nimetlerine mazhar ve müstağrak et.</p>
+
+        <p><strong>YÂ RAB!</strong> Her zaman, her yerde, her hâlde, her işte, her şeyde, her isimde, her fiilde senin rızanı tahsil etmeye muvaffak et.</p>
+
+        <p><strong>Âmin!</strong></p>
+      </div>
+
+      <div class="downloads">
+        <h2>📥 PDF İndir</h2>
+        <a href="yemekduasi-a4.pdf" download>📄 A4 Formatı - Yemek Duası</a>
+        <a href="yemekduasi-a3.pdf" download>📄 A3 Formatı - Yemek Duası</a>
+      </div>
+    </div>
+
+    <div class="pdf-section">
+      <h2>A4 PDF Önizleme</h2>
+      <iframe src="yemekduasi-a4.pdf"></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
